@@ -1,0 +1,19 @@
+.item {
+    padding: 8px;
+    margin: 12px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.number {
+    background-color: rgba(0, 0, 225, .5);
+}
+
+.palindrome {
+    background-color: rgba(255, 0, 0, .5);
+}
+
+.number.palindrome {
+    background-color: rgba(255, 0, 255, .5);
+}
